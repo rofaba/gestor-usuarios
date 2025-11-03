@@ -21,7 +21,15 @@ public class AdminPanel extends JFrame {
 
         // Configuración del panel principal
         JPanel panel = new JPanel();
+        setContentPane(panel);
+        setTitle("Panel de Administración");
+        setSize(500, 400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        panel.setLayout(null);
+     
 
+        // Inicialización de componentes
         textArea1.setText("Ana López - España - Spotify\n");
         textArea1.append("Carlos Méndez - México - YouTube\n");
 
@@ -92,13 +100,9 @@ public class AdminPanel extends JFrame {
             }
         });
 
-        // Configuración básica
-        setTitle("Panel de Administración");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        pack();
-        setLocationRelativeTo(null);
-        setVisible(true);
+
+
+
+
     }
-
-
 }
