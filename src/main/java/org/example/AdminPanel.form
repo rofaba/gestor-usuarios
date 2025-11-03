@@ -51,7 +51,7 @@
                 <constraints/>
                 <properties/>
               </component>
-              <component id="7854c" class="javax.swing.JLabel" binding="txtplataforma">
+              <component id="5a3f8" class="javax.swing.JLabel" binding="lblplataforma">
                 <constraints/>
                 <properties>
                   <text value="Plataforma"/>
@@ -98,7 +98,7 @@
           <text value="Añadir Usuario"/>
         </properties>
       </component>
-      <component id="da69e" class="javax.swing.JButton" binding="btcCerrar">
+      <component id="da69e" class="javax.swing.JButton" binding="btnCerrar">
         <constraints>
           <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
