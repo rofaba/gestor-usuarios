@@ -26,7 +26,7 @@ public class AdminPanel extends JFrame {
         setSize(500, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        panel.setLayout(null);
+      
      
 
         // Inicialización de componentes
