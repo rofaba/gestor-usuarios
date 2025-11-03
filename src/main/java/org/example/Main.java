@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             AdminPanel panel = new AdminPanel();
-            panel.setVisible(true); // 👈 Esto es clave
-        });
+            panel.setVisible(true);  });
     }
 }
